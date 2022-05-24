@@ -18,7 +18,6 @@ jobs:
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
         cd api_yamdb
         pip install -r requirements.txt
-        cd ..
 
     - name: Flake8 test
       run: |
@@ -61,11 +60,9 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
-            sudo docker pull bazilit/yamdb_final
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
-            echo SECRET_KEY=${{ secrets.SECRET_KEY }} >> .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
             echo DB_NAME=${{ secrets.DB_NAME }} >> .env
             echo POSTGRES_USER=${{ secrets.POSTGRES_USER }} >> .env
