@@ -1,5 +1,6 @@
 ***Проект YaMDb***
 ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+
 ---
 ### Описание:
 Проект YaMDb собирает отзывы пользователей на произведения («Книги», «Фильмы», «Музыка»).
