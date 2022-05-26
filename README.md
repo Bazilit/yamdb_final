@@ -1,5 +1,5 @@
 ***Проект YaMDb***
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![yamdb workflow](https://github.com/Bazilit/yamdb_final/actions/workflows/main.yml/badge.svg)
 
 ---
 ### Описание:
