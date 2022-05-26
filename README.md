@@ -56,7 +56,7 @@ Python, Django, Django Rest Framework, JWT, Swagger
 *sudo docker-compose exec web python manage.py collectstatic --no-input*
 
 #### 9. Проверяем доступность сервиса. Зайдите в админку под суперпользователем и создайте жанры, категорию, отзыв о произведение:
-*http://localhost/admin*
+*http://[localhost/](http://51.250.25.225)admin*
 
 ---
 ### Автор: *Шарковский А.*
